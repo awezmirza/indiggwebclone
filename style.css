@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: rgb(18, 18, 18);
+}
+
+.navbar {
+    background-color: rgb(41, 41, 41);
+    height: 75px;
+    display: flex;
+}
+
+.logocontainer {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid white; */
+    margin-left: 50px;
+}
+
+.logodescription {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.logo {
+    margin-inline: 10px;
+}
+
+.navlist {
+    display: flex;
+    list-style: none;
+    color: rgb(106, 106, 106);
+    /* border: 1px solid white; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-inline: 20px;
+    align-items: center;
+}
+
+li {
+    margin-inline: 20px;
+    cursor: pointer;
+    color: rgb(106, 106, 106);
+}
+
+li:active {
+    color: white;
+}
+
+.rightpartofnav {
+    position: absolute;
+    right: 10px;
+    display: flex;
+}
+
+.userporofile {
+    /* border: 1px solid rgb(255, 0, 0); */
+    display: flex;
+    align-items: center;
+}
+
+.usericon .material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48;
+    color: rgb(106, 106, 106);
+    
+}
+
+.usericon {
+    background-color: white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-inline: 10px;
+}
+
+.dropdownicon .material-symbols-outlined {
+    color: white;
+    margin-inline: 10px;
+    
+}
+
+.ccprg button {
+    color: white;
+    background: none;
+    border: 1px solid rgb(125, 37, 195);
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+.ccprg {
+    margin-inline: 50px;
+}
