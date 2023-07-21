@@ -43,15 +43,20 @@ body {
     align-items: center;
 }
 
-li {
+li a {
     margin-inline: 20px;
     cursor: pointer;
     color: rgb(106, 106, 106);
+    text-decoration: none;
 }
 
-li:active {
+/* li a:active {
     color: white;
-}
+} */
+
+/* li a:focus {
+    color: white;
+} */
 
 .rightpartofnav {
     position: absolute;
@@ -59,10 +64,13 @@ li:active {
     display: flex;
 }
 
-.userporofile {
+.userprofile {
     /* border: 1px solid rgb(255, 0, 0); */
     display: flex;
-    align-items: center;
+    align-items: end;
+    height: min-content;
+    margin: auto;
+    cursor: pointer;
 }
 
 .usericon .material-symbols-outlined {
@@ -99,6 +107,13 @@ li:active {
     padding: 15px 25px;
     border-radius: 30px;
     font-size: 16px;
+    transition: background 0.2s ease-in;
+    cursor: pointer;
+}
+
+.ccprg button:hover {
+    background: rgba(124, 37, 195, 0.15)
+    ;
 }
 
 .ccprg {
