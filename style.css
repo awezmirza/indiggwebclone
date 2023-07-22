@@ -119,3 +119,10 @@ li a {
 .ccprg {
     margin-inline: 50px;
 }
+
+.appintroduction{
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    
+}
